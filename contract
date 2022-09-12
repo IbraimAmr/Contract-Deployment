@@ -1,0 +1,12 @@
+pragma solidity >=0.5.0 <0.6.0;
+
+contract ibrahim {
+
+    uint x = 2;
+    uint y = 5;
+    uint z = 2 + 5;
+
+function add() public view returns (uint) {
+  return z;
+}
+}
